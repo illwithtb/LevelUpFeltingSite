@@ -1,12 +1,47 @@
+:root{
+    --sky-blue: #84ada7;
+    --dark-green: #4e6e60;
+    --grass-green: #81967E;
+    --brown: #945A50;
+    --cream: #d9d7a1;
+    --white: #ffffff;
+}
+
+@font-face {
+    font-family: 'vt323';
+    src: url("/fonts/VT323/VT323-Regular.ttf");
+}
+
 body {
     margin: 0px;
     padding:0px;
+    font-family: "vt323";
 }
 
 header {
-    background-color:lightblue;
+    background-color:var(--sky-blue);
+    padding-top: 5em;
+    color: var(--white);
 }
 
-header h1 {
+h1 {
     margin: 0;
+    width: auto;
+    height: 100%;
+}
+
+.socials-list li{
+    display: inline;
+    margin-right: 1rem;
+}
+
+.socials-list li:last-child{
+    margin: 0;
+}
+
+.header-div {
+    width: 96%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 2%;
 }
