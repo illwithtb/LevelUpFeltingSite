@@ -27,7 +27,31 @@ header {
 h1 {
     margin: 0;
     width: auto;
-    height: 100%;
+}
+
+.header-div {
+    width: 96%;
+    display: inline-flex;
+    justify-content: space-between;
+    padding: 0 2%;
+}
+
+.navbar {
+    width: 100%;
+    padding: 1em 0;
+    background-color: var(--dark-green);
+    color: var(--white);
+}
+
+.navbar-list {
+    margin: 0;
+    padding: 0 2%;
+    text-align: center;
+}
+
+.navbar-list li {
+    display: inline;
+    margin: 0 2%;
 }
 
 .socials-list li{
@@ -37,11 +61,4 @@ h1 {
 
 .socials-list li:last-child{
     margin: 0;
-}
-
-.header-div {
-    width: 96%;
-    display: inline-flex;
-    justify-content: space-between;
-    padding: 0 2%;
 }
