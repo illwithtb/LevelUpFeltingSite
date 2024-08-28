@@ -9,13 +9,13 @@
 
 @font-face {
     font-family: 'vt323';
-    src: url("/assets/fonts/VT323/VT323-Regular.ttf");
+    src: url("../fonts/VT323/VT323-Regular.ttf");
 }
 
 body {
     margin: 0px;
     padding:0px;
-    font-family: "vt323";
+    font-family: "vt323", monospace;
 }
 
 header {
