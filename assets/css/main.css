@@ -54,6 +54,20 @@ h1 {
     margin: 0 2%;
 }
 
+/* link stylings */
+.navbar-list a:link{
+    color:var(--white);
+
+}
+
+.navbar-list a:visited{
+    color:var(--white)
+
+}
+
+.navbar-list a:hover{
+    color:var(--grass-green)
+}
 .socials-list li{
     display: inline;
     margin-right: 1rem;
@@ -62,3 +76,4 @@ h1 {
 .socials-list li:last-child{
     margin: 0;
 }
+
