@@ -12,21 +12,22 @@
     src: url("../fonts/VT323/VT323-Regular.ttf");
 }
 
+@font-face {
+    font-family: 'jersey10';
+    src: url("../fonts/Jersey_10/");
+}
+
 body {
     margin: 0px;
     padding:0px;
     font-family: "vt323", monospace;
 }
 
+/*--HEADER START--*/
 header {
     background-color:var(--sky-blue);
     padding-top: 5em;
     color: var(--white);
-}
-
-h1 {
-    margin: 0;
-    width: auto;
 }
 
 .header-div {
@@ -34,8 +35,58 @@ h1 {
     display: inline-flex;
     justify-content: space-between;
     padding: 0 2%;
+    align-items: flex-end;
+    margin-bottom: 10px;
 }
 
+h1 {
+    margin-top: auto;
+    margin-bottom: 0;
+    width: auto;
+    min-width: 210px;
+}
+
+.socials-list {
+    margin-top:auto;
+    margin-bottom: 0;
+}
+
+.sheep-container{
+    width: 50%;
+    min-width: none;
+    margin-bottom: 0;
+    position: relative;
+}
+
+#header-sheep{
+    object-fit: contain;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: -10px;
+}
+
+.socials-list li{
+    display: inline;
+    margin-right: 1rem;
+}
+
+.socials-list li:last-child{
+    margin: 0;
+}
+
+.header-div a{
+    text-decoration: none;
+    color: var(--white);
+}
+
+.socials-list a{
+    text-decoration: none;
+    color: var(--white);
+}
+/*--HEADER END--*/
+
+/*--NAVBAR START--*/
 .navbar {
     width: 100%;
     padding: 1em 0;
@@ -68,12 +119,4 @@ h1 {
 .navbar-list a:hover{
     color:var(--grass-green)
 }
-.socials-list li{
-    display: inline;
-    margin-right: 1rem;
-}
-
-.socials-list li:last-child{
-    margin: 0;
-}
-
+/*--NAVBAR END--*/
