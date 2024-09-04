@@ -20,7 +20,7 @@
 body {
     margin: 0px;
     padding:0px;
-    font-family: "vt323", monospace;
+    font-family:"vt323", monospace;
 }
 
 /*--HEADER START--*/
@@ -120,3 +120,23 @@ h1 {
     color:var(--grass-green)
 }
 /*--NAVBAR END--*/
+
+/*--MAIN START--*/
+.main-div {
+    display: flex;
+    flex-direction: column;
+    width: 90%;
+    margin: auto;
+    color: #2f3331
+}
+
+.main-div h2{
+    margin-bottom: 0;
+    padding-left: 1.2rem;
+}
+
+.main-div hr{
+    width: 10%;
+    margin-left: 0;
+}
+/*--MAIN END--*/
